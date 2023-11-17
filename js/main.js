@@ -36,5 +36,6 @@ console.log(oddNumbers.join(" * "));
 4. A 3. feladatban keletkezet tömbbe az utolsó előtti helyre szúrja be a 213-as 
 értéket.
 */
+console.log("A 213-as szám utolsó előtti helyre való beszúrásának ellenőrzése:");
 oddNumbers.splice(oddNumbers.length-1, 0, 213);
 console.log(oddNumbers);
