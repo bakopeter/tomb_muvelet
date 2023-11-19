@@ -38,4 +38,4 @@ console.log(oddNumbers.join(" * "));
 */
 console.log("A 213-as szám utolsó előtti helyre való beszúrásának ellenőrzése:");
 oddNumbers.splice(oddNumbers.length-1, 0, 213);
-console.log(oddNumbers);
+console.log(oddNumbers.toString());
